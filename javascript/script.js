@@ -54,7 +54,9 @@ $(document).ready(function(){
     titlePosition : 'bottom',
     spinner : 'wave',
     spinColor : '#FFAE00',
-    bgcolor : '#202020'
+    bgcolor : '#202020',
+    // framewidth : '1520px',
+    // frameheight : '850px',
   });
 });
 
