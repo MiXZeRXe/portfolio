@@ -198,182 +198,6 @@ nav ul ul ul li{
     display: none;
 }
 
-/* @media all and (max-width: 1200px) {
-
-    nav ul{
-        margin-right: 0px;
-        float: left;
-    }
-    nav .logo{
-        width: 100%;
-    }
-
-    nav ul li, nav ul ul li{
-        display: block;
-        width: 100%;
-    }
-
-    nav ul ul{
-        top: 70px;
-        position: static; 
-        border-top: none;
-        float: none;
-        display: none;
-        opacity: 1;
-        visibility: visible;
-    }
-
-    .show{
-        display: block;
-        color: white;
-        font-size: 18px;
-        padding: 0 20px;
-        line-height: 70px;
-        cursor: pointer;
-    }
-
-    .show:hover{
-        color: var(--main);
-    }
-
-    .icon{
-        display: block;
-        color: white;
-        position: absolute;
-        right: 40px;
-        line-height: 70px;
-        font-size: 25px;
-        cursor: pointer;
-    }
-
-    nav ul li a:hover{
-        box-shadow: none;
-    }
-
-    .show + a, ul{
-        display: none;
-    }
-    
-    [id^=btn]:checked + ul{
-        display: block;
-    }
-} */
-
-
-
-/* .section{
-    font-family: prompt , sans-serif;
-    color: white;
-}
-
-.section-home{
-    color: white;
-    height: 100vh;
-    background:var(--dark);
-}
-
-.section-home h2{
-    text-align: left;
-    top: 400px;
-    left: 10%;
-    font-size: 160px;
-    color:rgb(255, 174, 0);
-}
-
-.section-home h1{
-    position: absolute;
-    float: left;
-    text-align: center;
-    top: 45%;
-    left: 15%;
-    padding: 0 0em; */
-    /* transform: translate(-50%, -50%); */
-    /* font-size: 70px;
-    color: rgb(255, 115, 0);
-    text-shadow: 0px 0px 1px  rgb(255, 115, 0),
-    0px 0px 1px  rgb(255, 145, 0),
-    0px 0px 1px  rgb(255, 166, 0);
-    transition: 0.2s;
-} */
-/* 
-.section-home h3{
-    float: left;
-    position: absolute;
-    top: 43.5%;
-    left: 15%;
-    text-align: center;
-    font-size: 43px;
-    /* transform: translate(-50%, -50%); */
-    /* font-weight: bold;
-    color: rgb(255, 145, 0);
-    
-}
-
-.section-home h1:hover{
-    color: rgb(255, 255, 255);
-    transition: 0.2s;
-    text-shadow: 0px 5px 1px  rgb(255, 115, 0),
-    0px 10px 1px  rgb(255, 145, 0),
-    0px 15px 1px  rgb(255, 166, 0);
-    
-} */ 
-/* 
-.section-home p{
-    text-align: left;
-    
-    position: absolute;
-    top: 55%;
-    left: 15.2%;
-    font-size: 20px;
-    color: #8f8f8f;
-} */
-
-/* .section-about{
-    height: 100vh;
-    background: var(--dark);
-} */
-
-/* .about h1{ */
-    /* position: absolute;
-    float: right;
-    text-align: right;
-    left: 65%;
-    top: 20%;
-    font-size: 80px;
-    padding: 0 50px; */
-    /* text-align: right;
-    right: 10%;
-    top: 300px;
-    font-size: 70px;
-    padding: 0 50px;
-    margin-right: 150px;
-    
-} */
-
-/* .about p{ */
-    /* position: absolute;
-    text-align: right;
-    top: 20%;
-    left: 0%;
-    font-size: 20px; */
-    /* text-align: right;
-    right: 10%;
-    top: 300px;
-    font-size: 20px;
-    margin-right: 200px;
-    
-} */
-
-/* .section-work{
-    height: 100vh;
-    background: var(--dark);
-}
-.section-certificate{
-    height: 100vh;
-    background: var(--dark);
-}
- */
-
 .section-header{
     text-align: center;
     margin-bottom: 1.5rem;
@@ -591,6 +415,7 @@ nav ul ul ul li{
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 0.2s;
     
 }
 
@@ -598,7 +423,7 @@ nav ul ul ul li{
     max-width: 750px;
 }
 
-/* Portfolio */
+/* SECTION */
 
 .portfolio{
     color: white;
@@ -810,22 +635,6 @@ nav ul ul ul li{
     
 }
 
-/* .plus:before, .plus:after{
-    content: '';
-    position: absolute;
-    width: 4.5rem;
-    height: 3px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    background-color: white;
-    border-radius: 3px;
-}
-
-.plus::before {
-    transform: translate(-50%,-50%) rotate(-90deg);
-} */
-
 .img-description{
     width: 100%;
 }
@@ -896,6 +705,7 @@ nav ul ul ul li{
 
 
 @media all and (max-width: 850px){
+
     nav ul{
         margin-right: 0px;
         float: left;
@@ -906,19 +716,20 @@ nav ul ul ul li{
 
     .container {
         padding: 0 2rem;
-      }
+    }
   
-      .logo{
-          padding: 0 0rem;
-      }
+    .logo{
+        padding: 0 0rem;
+    }
 
     .nav-list{
-    margin-top: 70px;
+        margin-top: 70px;
     }
     .logo-container{
         margin-left: 0px;
         width: 0%; 
     }
+
     nav  ul li, nav  ul ul li{
         display: block;
         width: 100%;
@@ -1025,7 +836,7 @@ nav ul ul ul li{
 
     .icon:hover{
         color: rgb(199, 129, 0);
-        transition: 0.5s;
+        transition: 0.2s;
     }
 
     .show + a, ul{
@@ -1052,7 +863,6 @@ nav ul ul ul li{
 
 @media (max-width: 1280px) {
 
-    
     .grid-2 {
         grid-template-columns: 1fr !important;
       }
@@ -1062,22 +872,22 @@ nav ul ul ul li{
         padding-top: 12rem;
     }
 
-    .column-1 {
+    .column-1{
         margin-right: 0;
         margin-bottom: 1rem;
     }
     
-    .column-2 {
+    .column-2{
         margin-left: 0;
         margin-top: 1rem;
     }
     
-    .header-content {
+    .header-content{
         margin-top: 1rem;
         text-align: center;
     }
     
-    .header-title {
+    .header-title{
         font-size: rem;
         text-align: center;
     }
@@ -1092,7 +902,7 @@ nav ul ul ul li{
           transition: 0.2s;
     }
   
-    .text {
+    .text{
           text-align: center;
     }
   
@@ -1162,7 +972,6 @@ nav ul ul ul li{
         padding-bottom:2rem;
         line-height: 1;
         font-size: 2.8rem;
-        
     }
     
     .title-about:before{
@@ -1187,13 +996,11 @@ nav ul ul ul li{
         left: 50%;
         margin-bottom: 1rem;
         transform: translateX(-50%);
-        
     }
 
     .background-bg-about {
         height: 240px;
       }
-
 
     .title{
         position: relative;
@@ -1255,57 +1062,16 @@ nav ul ul ul li{
       margin-left: 1rem;
     }
   
-    .overlay.overlay-lg .shape {
-      height: 35px;
-    }
-  
-    .overlay.overlay-lg .shape.wave {
-      height: initial;
-      width: 63px;
-    }
-  
-    .overlay.overlay-lg .shape.xshape {
-      height: 24px;
-    }
-  
-    .overlay.overlay-sm .shape {
-      height: 24px;
-    }
-  
-    .overlay.overlay-sm .shape.wave {
-      height: initial;
-      width: 39px;
-    }
-  
-    .overlay.overlay-sm .shape.xshape {
-      height: 19px;
-    }
-  
-    header .points1 {
-      width: 270px;
-      bottom: -50px;
-      left: -75px;
-    }
-  
-    header .points2 {
-      width: 340px;
-    }
-  
-    header .letters {
-      width: 11%;
-    }
-  
     .header-content .image .img-element {
       max-width: 500px;
     }
+
     .header-content .container.grid-2 {
       min-height: calc(100vh - 4.5rem);
-      padding-bottom: 1.5rem;
+      /* padding-bottom: 1.5rem; */
     }
   
-  
     .header-title {
-        
       font-size: 2.6rem;
     }
   
@@ -1313,36 +1079,10 @@ nav ul ul ul li{
       margin: 1.1rem 0;
     }
   
-    .card {
-      min-height: 390px;
-      max-width: 290px;
-      padding: 2.2rem 1.5rem;
-    }
   
     .icon {
-      width: 65px;
+      width: 55px;
       margin-bottom: 0.8rem;
-    }
-  
-    .card .text {
-      font-size: 0.9rem;
-      margin: 1rem 0;
-    }
-  
-    .card:before {
-      font-size: 5rem;
-    }
-  
-    .card-wrap {
-      margin: 1rem 0.6rem;
-    }
-  
-    .services .points1 {
-      left: -60px;
-    }
-  
-    .points-sq {
-      width: 150px;
     }
   
     .grid {
@@ -1352,6 +1092,7 @@ nav ul ul ul li{
     .grid-item {
       padding: 0.8rem;
     }
+
     .grid-cer {
       margin: 0.8rem 0;
     }
@@ -1402,6 +1143,7 @@ nav ul ul ul li{
   }
   
   @media (max-width: 1280px) {
+
     .grid-2 {
       grid-template-columns: 1fr !important;
     }
@@ -1464,6 +1206,7 @@ nav ul ul ul li{
         border: 1px solid var(--main);
         margin: 0 100px ;
     }
+
     .btnmove {
         left: 100px;
     }
@@ -1596,17 +1339,20 @@ nav ul ul ul li{
   }
 
   @media (max-width: 700px){
+
     .container {
         padding: 0 2rem;
-      }
+    }
   
-      .logo{
+    .logo{
           padding: 0 0rem;
-      }
+    }
+
     .about-title{
         font-size: 50px;
         padding-bottom: 10px;
     }
+
   }
   
   @media (max-width: 630px) {
@@ -1638,11 +1384,9 @@ nav ul ul ul li{
 
   }
 
-  
-  
   @media (max-width: 560px) {
       
-    .container {
+    .container{
       padding: 0 2rem;
     }
 
@@ -1704,9 +1448,11 @@ nav ul ul ul li{
         font-size: 30px;
         padding-bottom: 10px;
     }
+
   }
 
   @media (max-width: 320px){
+
     .about-title{
         font-size: 25px;
         padding-bottom: 10px;
@@ -1715,4 +1461,5 @@ nav ul ul ul li{
     .text-section{
         font-size: 10px;
     }
+
   }
