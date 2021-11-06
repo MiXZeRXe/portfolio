@@ -259,148 +259,7 @@ nav ul ul ul li{
     }
 } */
 
-@media all and (max-width: 850px){
-    nav ul{
-        margin-right: 0px;
-        float: left;
-        transition: 0.5s;
-        width: 100%;
-        
-    }
 
-    .nav-list{
-    margin-top: 70px;
-    }
-    .logo-container{
-        margin-left: 0px;
-        width: 0%; 
-    }
-    nav  ul li, nav  ul ul li{
-        display: block;
-        width: 100%;
-        transition: 0.5s;
-        border-bottom: 0.5px solid rgb(107, 107, 107);
-        
-    }
-    nav ul ul{
-        top: 70%;
-        position: static;
-        float: none;
-        display: none;
-        opacity: 1;
-        visibility: visible;
-        transition: 0.5s;
-        
-        
-    }
-
-    nav  ul ul ul li{
-        position: static;
-        transition: 0.5s;
-        
-    }
-
-    nav  ul ul li{
-        border-bottom: 0px;
-        transition: 0.5s;
-    }
-
-
-    nav  ul ul a{
-        padding-left: 50px;
-        transition: 0.5s;
-    }
-
-    nav  ul ul ul a{
-        padding-left: 80px;
-        transition: 0.5s;
-    }
-
-    nav ul ul ul li{
-        background: rgb(44, 44, 44);
-        margin-left: 0px;
-        /* opacity: 0; */
-
-    }
-
-    nav ul ul li{
-        display: inline-block;
-        background: rgb(42, 42, 42);
-        margin-left: 20px;
-        transition: 0.5s;
-        
-        
-    }
-    
-    .show{
-        display: block;
-        color: white;
-        font-size: 18px;
-        padding: 0 16px;
-        line-height: 70px;
-        cursor: pointer;
-        transition: 0.5s;
-        
-        
-        
-    }
-
-    .show:hover{
-        color: var(--main);
-    }
-
-    .show2{
-        display: block;
-        color: white;
-        font-size: 18px;
-        padding: 0 50px;
-        line-height: 70px;
-        cursor: pointer;
-        transition: 0.5s;
-    }
-
-    .show2:hover{
-        color: var(--main);
-    }
-    
-    .icon{
-        display: block;
-        color: var(--main);
-        position: absolute;
-        right: 40px;
-        line-height: 70px;
-        font-size: 25px;
-        cursor: pointer;
-        transition: 0.5s;
-        
-    }
-
-    .icon:hover{
-        color: rgb(199, 129, 0);
-        transition: 0.5s;
-    }
-
-    .show + a, ul{
-        display: none;
-        opacity: 0;
-        transition: 0.5s;
-        
-    }
-
-    .show2 + a, ul{
-        display: none;
-        opacity: 0;
-        transition: 0.5s;
-        
-    }
-
-    [id^=btn]:checked + ul{
-        opacity: 1;
-        display: block;
-        transition: 0.5s;
-        
-    }
-}
 
 /* .section{
     font-family: prompt , sans-serif;
@@ -1035,6 +894,162 @@ nav ul ul ul li{
 
 /* RESPONSIVE */
 
+
+@media all and (max-width: 850px){
+    nav ul{
+        margin-right: 0px;
+        float: left;
+        transition: 0.5s;
+        width: 100%;
+        
+    }
+
+    .container {
+        padding: 0 2rem;
+      }
+  
+      .logo{
+          padding: 0 0rem;
+      }
+
+    .nav-list{
+    margin-top: 70px;
+    }
+    .logo-container{
+        margin-left: 0px;
+        width: 0%; 
+    }
+    nav  ul li, nav  ul ul li{
+        display: block;
+        width: 100%;
+        transition: 0.5s;
+        border-bottom: 0.5px solid rgb(107, 107, 107);
+        
+    }
+    nav ul ul{
+        top: 70%;
+        position: static;
+        float: none;
+        display: none;
+        opacity: 1;
+        visibility: visible;
+        transition: 0.5s;
+        
+        
+    }
+
+    nav  ul ul ul li{
+        position: static;
+        transition: 0.5s;
+        
+    }
+
+    nav  ul ul li{
+        border-bottom: 0px;
+        transition: 0.5s;
+    }
+
+
+    nav  ul ul a{
+        padding-left: 50px;
+        transition: 0.5s;
+    }
+
+    nav  ul ul ul a{
+        padding-left: 80px;
+        transition: 0.5s;
+    }
+
+    nav ul ul ul li{
+        background: rgb(44, 44, 44);
+        margin-left: 0px;
+        /* opacity: 0; */
+
+    }
+
+    nav ul ul li{
+        display: inline-block;
+        background: rgb(42, 42, 42);
+        margin-left: 20px;
+        transition: 0.5s;
+        
+        
+    }
+    
+    .show{
+        display: block;
+        color: white;
+        font-size: 18px;
+        padding: 0 16px;
+        line-height: 70px;
+        cursor: pointer;
+        transition: 0.5s;
+        
+        
+        
+    }
+
+    .show:hover{
+        color: var(--main);
+    }
+
+    .show2{
+        display: block;
+        color: white;
+        font-size: 18px;
+        padding: 0 50px;
+        line-height: 70px;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+    .show2:hover{
+        color: var(--main);
+    }
+    
+    .icon{
+        display: block;
+        color: var(--main);
+        position: absolute;
+        right: 0px;
+        line-height: 70px;
+        font-size: 25px;
+        cursor: pointer;
+        transition: 0.5s;
+        
+    }
+
+    .logo{
+        padding: 0 0rem;
+    }
+
+    .icon:hover{
+        color: rgb(199, 129, 0);
+        transition: 0.5s;
+    }
+
+    .show + a, ul{
+        display: none;
+        opacity: 0;
+        transition: 0.5s;
+        
+    }
+
+    .show2 + a, ul{
+        display: none;
+        opacity: 0;
+        transition: 0.5s;
+        
+    }
+
+    [id^=btn]:checked + ul{
+        opacity: 1;
+        display: block;
+        transition: 0.5s;
+        
+    }
+}
+
 @media (max-width: 1280px) {
 
     
@@ -1110,6 +1125,10 @@ nav ul ul ul li{
 
     .portfolio{
         min-height: 500px;
+    }
+
+    .logo{
+        padding: 0 0rem;
     }
 
     .text {
@@ -1398,7 +1417,7 @@ nav ul ul ul li{
     }
   
     .header-content {
-      margin-top: 1rem;
+      margin-top: 5rem;
       text-align: center;
     }
   
@@ -1464,8 +1483,8 @@ nav ul ul ul li{
     .title-about{
         position: relative;
         display: inline-block;
-        padding-top: 0.5rem;
-        padding-bottom:2rem;
+        padding-top: .5rem;
+        padding-bottom:0rem;
         line-height: 1;
         font-size: 2.8rem;
         
@@ -1489,9 +1508,9 @@ nav ul ul ul li{
         height: 5px;
         border-radius: 3px;
         background-color: var(--dark);
-        bottom: 0;
+        bottom: -30px;
         left: 50%;
-        margin-bottom: 1rem;
+        margin-bottom: 0rem;
         transform: translateX(-50%);
         
     }
@@ -1575,8 +1594,39 @@ nav ul ul ul li{
     }
   
   }
+
+  @media (max-width: 700px){
+    .container {
+        padding: 0 2rem;
+      }
   
-  @media (max-width: 600px) {
+      .logo{
+          padding: 0 0rem;
+      }
+    .about-title{
+        font-size: 50px;
+        padding-bottom: 10px;
+    }
+  }
+  
+  @media (max-width: 630px) {
+
+    .container {
+        padding: 0 2rem;
+      }
+  
+      .logo{
+          padding: 0 0rem;
+      }
+
+    .header-title{
+        font-size: 60px;
+    }
+
+    .about-title{
+        font-size: 40px;
+        padding-bottom: 10px;
+    }
       
     .grid-item {
       width: 100%;
@@ -1587,6 +1637,8 @@ nav ul ul ul li{
     }
 
   }
+
+  
   
   @media (max-width: 560px) {
       
@@ -1595,15 +1647,72 @@ nav ul ul ul li{
     }
 
     .logo{
-        padding: 0 2rem;
+        padding: 0 0rem;
+    }
+
+    .header-title{
+        font-size: 50px;
+    }
+
+    .btn1{
+        font-size: 12px;
+        padding: 10px 10px;
+        margin: 0 0;
+        /* margin-left: 85px; */
+        margin-left: 95px;
+        position: absolute;
+        text-align: center;
+    }
+
+
+    .about-title{
+        font-size: 33px;
+        padding-bottom: 10px;
     }
   
     .title {
       font-size: 1.8rem;
     }
+
+    .title-about{
+        font-size: 1.8rem;
+      }
   
     .text {
-      font-size: 0.92rem;
+      font-size: 0.78rem;
     }
   
+  }
+
+  @media (max-width: 370px){
+
+    .header-title{
+        font-size: 40px;
+    }
+
+    .btn1{
+        font-size: 12px;
+        padding: 10px 10px;
+        margin: 0 0;
+        /* margin-left: 85px; */
+        margin-left: 80px;
+        position: absolute;
+        text-align: center;
+    }
+
+    .about-title{
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+  }
+
+  @media (max-width: 320px){
+    .about-title{
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+
+    .text-section{
+        font-size: 10px;
+    }
   }
